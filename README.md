@@ -1,11 +1,11 @@
-# GMRProcessor
+# GuidedModeResonanceAnalysis
 
-`GMRProcessor` processes guided-mode resonance (GMR) image data. It contains
+`GuidedModeResonanceAnalysis` processes guided-mode resonance (GMR) image data. It contains
 configuration models, image loading and analysis, region-of-interest (ROI)
 support, experiment workflows, chemical-stability entry points, plotting
 helpers, and logging.
 
-See the detailed [GMRProcessor architecture](architecture.md) for component
+See the detailed [GuidedModeResonanceAnalysis architecture](architecture.md) for component
 ownership and data flow.
 
 The repository pins Python with `.python-version`, installs dependencies from

@@ -29,3 +29,16 @@ otherwise:
 - State limitations, prerequisites, and unsupported behavior explicitly.
 - Do not use promotional claims, vague qualifiers, unexplained jargon, or
 	undocumented assumptions.
+
+# Architecture Documentation
+
+After changing project structure, dependencies, workflows, or data flow,
+delegate the affected scope to `ArchitectureDocumentationManager`. Have it
+update `architecture.md` and keep its README links and project descriptions
+consistent.
+
+# Requirements Maintenance
+
+After adding, removing, or changing a dependency, delegate the affected scope
+to `RequirementsManager`. Have it update `requirements.txt` and document
+verified installation or testing implications in `README.md`.

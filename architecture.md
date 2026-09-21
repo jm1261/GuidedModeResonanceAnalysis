@@ -1,8 +1,8 @@
-# GMRProcessor architecture
+# GuidedModeResonanceAnalysis architecture
 
 ## Scope
 
-`GMRProcessor` processes guided-mode resonance image data. Its workflow is
+`GuidedModeResonanceAnalysis` processes guided-mode resonance image data. Its workflow is
 organized around configuration and metadata discovery, image loading, ROI
 selection, numerical analysis, and result generation.
 
@@ -72,7 +72,7 @@ additional data transformations are required.
 `PHOREST_DATA_ROOT`, discovers measurement directories, creates or reloads
 image configurations, and coordinates the image and result pipeline.
 
-`InitializeScripts.py` adds `GMRProcessor` to the import path and configures
+`InitializeScripts.py` adds `GuidedModeResonanceAnalysis` to the import path and configures
 the logging file with the current date and log directory.
 
 ### `ChemicalStability/`
