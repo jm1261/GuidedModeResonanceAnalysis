@@ -1,0 +1,4 @@
+# Copy this file to local_config.yml and replace the local paths.
+GMR_DATA_ROOT: D:/data/gmr
+PHOREST_DATA_ROOT: D:/data/phorest
+CHEMICAL_STABILITY_DATA_ROOT: D:/data/chemical-stability

@@ -1,0 +1,13 @@
+# Python caches and environments.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local or generated GMR configuration files.
+Config/*
+local_config.yml
+
+# Generated application logs.
+Logging/*.log

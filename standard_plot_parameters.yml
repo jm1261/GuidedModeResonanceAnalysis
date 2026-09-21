@@ -1,0 +1,11 @@
+figsize:
+  - 15
+  - 9
+dpi: 600
+title: title
+x-label: x-label
+y-label: y-label
+axis-fontsize: 15
+title-fontsize: 15
+legend-size: 10
+label-size: 10
